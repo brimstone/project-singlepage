@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<!-- smoosh -->
+<link rel='stylesheet' href='all.css'>
+<!-- endsmoosh -->
+<h1>Hi {{test}}</h1>
+name: <input type="text" ng-model="test">
+<!-- smoosh -->
+<script src="../vendor/angular/build/angular.min.js"></script>
+<!-- endsmoosh -->
+<script>
+angular.element(document).ready(function() {
+angular.module('myApp', []);
+angular.bootstrap(document, ['myApp']);
+});
+</script>
+<script src="http://127.0.0.1:35729/livereload.js"></script>
+</html>

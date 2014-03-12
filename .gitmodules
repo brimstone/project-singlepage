@@ -1,0 +1,9 @@
+[submodule "vendor/bootstrap"]
+	path = vendor/bootstrap
+	url = https://github.com/twbs/bootstrap
+[submodule "vendor/angular-ui-bootstrap"]
+	path = vendor/angular-ui-bootstrap
+	url = https://github.com/angular-ui/bootstrap.git
+[submodule "vendor/angular"]
+	path = vendor/angular
+	url = https://github.com/angular/angular.js.git

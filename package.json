@@ -1,0 +1,22 @@
+{
+  "name": "project-singlepage",
+  "version": "0.0.0",
+  "description": "1. build packages.json for simple npm install 1. download angular 1. download bootstrap sass and images 1. download angular-ui bootstrap things 1. setup index module directory 1. Setup Gruntfile.js to build css and js into one big html file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-less": "~1.2.2",
+    "tiny-lr": "0.0.5",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-livereload": "~1.2.0",
+    "gulp-ngmin": "~0.1.2",
+    "gulp-smoosher": "0.0.2",
+    "gulp-minify-html": "~0.1.1"
+  }
+}
